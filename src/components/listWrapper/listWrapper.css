@@ -1,0 +1,42 @@
+.App {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    height: auto;
+    border: 1px solid lightgray;
+    margin-top: 50px;
+    font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;;
+}
+
+.App > input {
+  width: 97%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.App > h4{
+  padding: 5px 10px;
+  text-align: left;
+  margin: 0 auto;
+  background-color: #e0e0e0;
+  font-weight: 450;
+  font-size: 14px;
+  height: 20px;
+}
+
+.App > .list {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.App > .list li {
+  border-bottom: 1px solid grey;
+    padding: 10px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 13px;
+}
