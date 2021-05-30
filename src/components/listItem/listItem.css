@@ -1,11 +1,11 @@
-span{
+.list span{
     display: block;
     font-size: 9px;
     padding-top: 5px;
     font-weight: 350;
 }
 
-.buttons {
+.list .buttons {
     margin-top: 20px;
     margin-right: 15px;
 }
@@ -14,23 +14,22 @@ span{
     padding-left: 10px;
 }
 
-.star {
-    border: none;
+.list .star {
+    border: 1px solid lightgray;
     background: transparent;
     font-size: 20px;
     margin-right: 10px;
     cursor: pointer;
-
 }
 
-.highlight {
-    color: #f3cd00;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+.list .highlight {
+    color: #f4b400;
+    background-color: #fff705;
 }
 
-.delete-icon {
+.list .delete-icon {
     background: transparent;
-    border: none;
+    border: 1px solid lightgray;
     font-size: 18px;
     margin-left: 5px;
     cursor: pointer;
